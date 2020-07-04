@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./public/myowncss.css" />
+    <script src="https://use.fontawesome.com/a46439961a.js"></script>
+    <title>Practice Ebook</title>
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <a href="#" class="logo"><span>e</span>Book</a>
+        <ul>
+          <li>La mano izquierda de Silicon Valley</li>
+        </ul>
+      </header>
+      <div class="content">
+        <div class="bannerText">
+          <h2>
+            Marketing en 2020<br />
+            Como crecer tus redes y blah blah blah
+          </h2>
+          <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Itaque
+            officia rerum omnis minima harum tempore, corrupti architecto porro
+            autem labore! Lorem ipsum dolor sit amet consectetur adipisicing
+            elit. Natus sit eos quo recusandae modi earum labore eveniet
+            quisquam expedita veniam?
+          </p>
+          <form action="/charge" method="POST">
+            <script
+              src="https://checkout.stripe.com/checkout.js"
+              class="stripe-button"
+              data-key="{{stripePublishableKey}}"
+              data-amount="2500"
+              data-name="Web Development Ebook"
+              data-description="Ebook written by Lorena Morales"
+              data-image="/img/marketplace.png"
+              data-locale="auto"
+            ></script>
+          </form>
+          <div class="about-the-author">
+            <h2>About the Author</h2>
+            <div class="authorImg">
+              <img src="/img/lorenaEbook.jpg" />
+              <p class="aboutMe">
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                Incidunt voluptate quo ab illo pariatur! Distinctio, laboriosam
+                dolore! Unde, aut modi blanditiis quam possimus enim.
+                <br />
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="bannerImg">
+          <img src="/public/img/blogs-book-2646768_640.png" />
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

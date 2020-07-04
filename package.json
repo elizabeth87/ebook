@@ -1,0 +1,17 @@
+{
+  "name": "practiceebook",
+  "version": "1.0.0",
+  "description": "app to sell an ebook",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "path": "^0.12.7",
+    "stripe": "^8.68.0"
+  }
+}
